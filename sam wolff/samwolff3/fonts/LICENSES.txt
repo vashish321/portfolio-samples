@@ -1,0 +1,7 @@
+Web fonts bundled with this site
+================================
+All families below are open-source (SIL Open Font License 1.1 unless
+stated otherwise) and are redistributed here under their own terms.
+
+Playfair Display (playfair-display) — Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name "Playfair Display". PlayfairDisplay-Italic[wght].ttf: Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name "Playfair Display".
+EB Garamond (eb-garamond) — Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12) EBGaramond-Italic[wght].ttf: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)

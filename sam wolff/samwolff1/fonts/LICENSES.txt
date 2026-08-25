@@ -1,0 +1,7 @@
+Web fonts bundled with this site
+================================
+All families below are open-source (SIL Open Font License 1.1 unless
+stated otherwise) and are redistributed here under their own terms.
+
+Instrument Serif (instrument-serif) — Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif) InstrumentSerif-Italic.ttf: Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif)
+Inter (inter) — Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter) Inter-Italic[opsz,wght].ttf: Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)

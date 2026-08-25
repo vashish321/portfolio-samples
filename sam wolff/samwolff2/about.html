@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Origin — Sam Wolff</title>
+<meta name="description" content="How Sam Wolff went from margin doodles to three self-published comic books and a studio above a bakery.">
+<meta property="og:title" content="Origin — Sam Wolff">
+<meta property="og:description" content="How Sam Wolff went from margin doodles to three self-published comic books and a studio above a bakery.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sam Wolff">
+<meta name="theme-color" content="#111111">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head"><div class="wrap head-in">
+<a class="brand" href="index.html" aria-label="Sam Wolff — home">
+<svg viewBox="0 0 64 64" width="34" height="34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="none" stroke="#FFD23F" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"><path d="M12 10 L18 26 M52 10 L46 26"/><path d="M12 10 L20 20 L26 14 M52 10 L44 20 L38 14"/><path d="M18 24 C18 18 24 13 32 13 C40 13 46 18 46 24 C46 32 44 36 40 40 L36 50 L32 54 L28 50 L24 40 C20 36 18 32 18 24 Z"/><path d="M26 28 h4 M34 28 h4"/><path d="M32 40 v6"/></svg><span><b>Sam Wolff</b>
+<span>Comics · Ink · Paint</span></span></a>
+<button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Toggle menu">Menu</button>
+<nav data-nav aria-label="Primary"><ul><li><a href="index.html">Home</a></li><li><a href="work.html">Work</a></li><li><a href="about.html" aria-current="page">Origin</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+</div></header>
+<main id="main">
+<section><div class="wrap">
+<div class="sec-head"><h2>Origin story</h2>
+<a class="link-btn" href="contact.html">Say hi</a></div>
+<div class="story"><div class="panel" data-reveal><span class="caption" style="display:inline-block;margin-bottom:.9rem">Panel 1 — 2002</span><h3>The kid with the margins</h3><p>Every textbook I owned had a fight scene in the margin. Nobody was surprised when I applied to art school; several people were surprised I finished.</p></div><div class="panel" data-reveal><span class="caption" style="display:inline-block;margin-bottom:.9rem">Panel 2 — 2008</span><h3>Six years of other people&#x27;s books</h3><p>I art-directed illustrated books for a small press. I learned how a page breathes, how much white space costs, and that a deadline is a creative constraint whether you like it or not.</p></div><div class="panel" data-reveal><span class="caption" style="display:inline-block;margin-bottom:.9rem">Panel 3 — 2014</span><h3>Back to the desk</h3><p>I quit, rented a third-floor room above a bakery on Dundas Street West, and started drawing every morning before the ovens cooled. That habit is still the whole method.</p></div><div class="panel" data-reveal><span class="caption" style="display:inline-block;margin-bottom:.9rem">Panel 4 — Now</span><h3>Three books and counting</h3><p>Hollow Kings (2025), The Long Way Down (2023) and Six Panels for a Missing Hour (2022) — all self-published, all under 300 copies, all signed at the kitchen table.</p></div></div>
+</div></section>
+
+<section><div class="wrap">
+<div class="figure-block">
+<div class="panel" data-reveal style="overflow:hidden">
+<img src="img/portrait-ew.svg" alt="Portrait of E.W. — acrylic and paper collage"></div>
+<div data-reveal>
+<span class="sfx" style="font-size:clamp(1.6rem,4vw,2.8rem)">Meanwhile&hellip;</span>
+<h3 style="font-size:2.2rem;text-transform:uppercase;margin:1rem 0 .8rem">
+The boring, useful facts</h3>
+<ul class="cv">
+<li><span class="yr">2026</span><span><strong>Weather Systems</strong>
+<span class="place">Bellwoods Project Space, Toronto — solo</span></span></li>
+<li><span class="yr">2025</span><span><strong>Hollow Kings</strong>
+<span class="place">128pp, self-published, edition of 300</span></span></li>
+<li><span class="yr">2025</span><span><strong>Ink Annual</strong>
+<span class="place">Harbour Print Fair, Toronto</span></span></li>
+<li><span class="yr">2024</span><span><strong>Six Rooms</strong>
+<span class="place">Fentiman Gallery, Montreal — two-person</span></span></li>
+<li><span class="yr">2023</span><span><strong>The Long Way Down</strong>
+<span class="place">64pp, self-published, edition of 250</span></span></li>
+<li><span class="yr">2022</span><span><strong>Six Panels for a Missing Hour</strong>
+<span class="place">32pp, risograph, edition of 120</span></span></li>
+</ul>
+<div class="bubble" style="margin-top:2rem">Available for covers, editorial
+illustration, and two commission slots a year. Anthology invitations always
+read, usually accepted.</div>
+</div>
+</div>
+</div></section>
+</main><footer class="site-foot"><div class="wrap">
+<a class="foot-cta" href="mailto:studio@samwolff.example">Got a story?<br>Let&rsquo;s draw it.</a>
+<div class="foot-row">
+<span>&copy; 2026 Sam Wolff — Toronto</span>
+<ul><li><a href="work.html">Work</a></li><li><a href="about.html">Origin</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="mailto:studio@samwolff.example">studio@samwolff.example</a></li></ul>
+</div></div></footer>
+<script>
+(function(){
+  var els=document.querySelectorAll('[data-reveal]');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('is-in');});return;}
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){en.target.classList.add('is-in');io.unobserve(en.target);}
+    });
+  },{rootMargin:'0px 0px -8% 0px',threshold:0.08});
+  els.forEach(function(e){io.observe(e);});
+})();
+
+(function(){
+  var b=document.querySelector('[data-nav-toggle]'), n=document.querySelector('[data-nav]');
+  if(!b||!n) return;
+  b.addEventListener('click',function(){
+    var open=n.classList.toggle('is-open');
+    b.setAttribute('aria-expanded',open?'true':'false');
+  });
+  n.addEventListener('click',function(e){
+    if(e.target.tagName==='A'){n.classList.remove('is-open');b.setAttribute('aria-expanded','false');}
+  });
+})();
+
+(function(){
+  var items=[].slice.call(document.querySelectorAll('[data-lightbox]'));
+  if(!items.length) return;
+  var box=document.createElement('div');
+  box.className='lightbox'; box.setAttribute('aria-hidden','true'); box.setAttribute('role','dialog');
+  box.setAttribute('aria-modal','true'); box.setAttribute('aria-label','Artwork viewer');
+  box.innerHTML='<button class="lb-close" aria-label="Close viewer">&times;</button>'+
+    '<button class="lb-nav lb-prev" aria-label="Previous artwork">&#8249;</button>'+
+    '<button class="lb-nav lb-next" aria-label="Next artwork">&#8250;</button>'+
+    '<figure class="lb-fig"><img alt=""><figcaption></figcaption></figure>';
+  document.body.appendChild(box);
+  var img=box.querySelector('img'), cap=box.querySelector('figcaption'), i=0, lastFocus=null;
+  var live=items;
+  function show(n){
+    i=(n+live.length)%live.length;
+    var el=live[i];
+    img.src=el.getAttribute('data-src'); img.alt=el.getAttribute('data-title')||'';
+    cap.innerHTML='<strong>'+(el.getAttribute('data-title')||'')+'</strong><span>'+(el.getAttribute('data-meta')||'')+'</span>';
+  }
+  function open(el){
+    live=items.filter(function(x){return !x.hidden;});
+    if(!live.length){live=items;}
+    var n=live.indexOf(el); if(n<0){n=0;}
+    lastFocus=document.activeElement;show(n);box.classList.add('is-open');box.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';box.querySelector('.lb-close').focus();}
+  function close(){box.classList.remove('is-open');box.setAttribute('aria-hidden','true');document.body.style.overflow='';if(lastFocus)lastFocus.focus();}
+  items.forEach(function(el){
+    el.addEventListener('click',function(e){e.preventDefault();open(el);});
+  });
+  box.querySelector('.lb-close').addEventListener('click',close);
+  box.querySelector('.lb-prev').addEventListener('click',function(){show(i-1);});
+  box.querySelector('.lb-next').addEventListener('click',function(){show(i+1);});
+  box.addEventListener('click',function(e){if(e.target===box)close();});
+  document.addEventListener('keydown',function(e){
+    if(!box.classList.contains('is-open'))return;
+    if(e.key==='Escape')close();
+    if(e.key==='ArrowLeft')show(i-1);
+    if(e.key==='ArrowRight')show(i+1);
+  });
+})();
+</script>
+</body>
+</html>
