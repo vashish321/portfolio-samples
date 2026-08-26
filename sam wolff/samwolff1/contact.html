@@ -3,170 +3,108 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contact — Sam Wolff</title>
-<meta name="description" content="Enquire about original drawings, paintings, commissions, comics and workshops with Sam Wolff.">
-<meta property="og:title" content="Contact — Sam Wolff">
-<meta property="og:description" content="Enquire about original drawings, paintings, commissions, comics and workshops with Sam Wolff.">
+<title>Enquire — Sam Wolff</title>
+<meta name="description" content="Buy a work, commission a drawing, or invite Sam Wolff to a festival or school.">
+<meta property="og:title" content="Enquire — Sam Wolff">
+<meta property="og:description" content="Buy a work, commission a drawing, or invite Sam Wolff to a festival or school.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Sam Wolff">
-<meta name="theme-color" content="#111111">
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
-
 <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-head"><div class="wrap head-in">
-<a class="brand" href="index.html" aria-label="Sam Wolff — home">
-<svg viewBox="0 0 64 64" width="30" height="30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="none" stroke="#16130F" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"><path d="M12 10 L18 26 M52 10 L46 26"/><path d="M12 10 L20 20 L26 14 M52 10 L44 20 L38 14"/><path d="M18 24 C18 18 24 13 32 13 C40 13 46 18 46 24 C46 32 44 36 40 40 L36 50 L32 54 L28 50 L24 40 C20 36 18 32 18 24 Z"/><path d="M26 28 h4 M34 28 h4"/><path d="M32 40 v6"/></svg><span class="brand-text"><b>Sam Wolff</b>
-<span>Drawing · Comics · Painting</span></span></a>
-<button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Toggle menu">Menu</button>
-<nav data-nav aria-label="Primary"><ul><li><a href="index.html">Home</a></li><li><a href="work.html">Work</a></li><li><a href="about.html">About</a></li><li><a href="contact.html" aria-current="page">Contact</a></li></ul></nav>
-</div></header>
-<main id="main">
-<section><div class="wrap">
-<p class="eyebrow">Contact</p>
-<div class="sec-head"><h2>Say hello</h2><span class="meta"
-style="font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)">
-Usually replies within two working days</span></div>
-<div class="contact-grid">
-<form id="contact-form" novalidate data-reveal>
-<div class="field"><label for="name">Your name</label>
+<header class="topbar">
+<a class="brand" href="index.html"><svg viewBox="0 0 64 64" width="26" height="26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="none" stroke="#12110F" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"><path d="M12 10 L18 26 M52 10 L46 26"/><path d="M12 10 L20 20 L26 14 M52 10 L44 20 L38 14"/><path d="M18 24 C18 18 24 13 32 13 C40 13 46 18 46 24 C46 32 44 36 40 40 L36 50 L32 54 L28 50 L24 40 C20 36 18 32 18 24 Z"/><path d="M26 28 h4 M34 28 h4"/><path d="M32 40 v6"/></svg>
+<span><b>Sam Wolff</b><i>Archive &middot; 1 of 1</i></span></a>
+<nav class="topnav"><a href="index.html">Archive</a><a href="about.html">Studio</a><a href="contact.html" aria-current="page">Enquire</a></nav></header>
+<div class="page-wrap" id="main">
+<span class="lbl">Enquire</span>
+<h1>Ask about a work</h1>
+<p class="lede">Prices are listed against every available piece in the archive.
+Postage is at cost, worldwide. Replies usually within two working days.</p>
+<div class="cols2">
+<form id="contact-form" novalidate style="margin-top:2.4rem">
+<div class="field"><label for="name">Name</label>
 <input id="name" name="name" type="text" autocomplete="name" required></div>
 <div class="field"><label for="email">Email</label>
 <input id="email" name="email" type="email" autocomplete="email" required></div>
-<div class="field"><label for="subject">What is this about?</label>
+<div class="field"><label for="subject">Enquiry type</label>
 <select id="subject" name="subject">
-<option>Buying a piece or an edition</option>
-<option>Commission enquiry</option>
-<option>Comics, publishing or anthology</option>
-<option>Exhibition or festival</option>
-<option>Workshop or teaching</option>
-<option>Something else</option>
+<option>Buying a work</option><option>Commission</option>
+<option>Publishing or anthology</option><option>Exhibition or festival</option>
+<option>Teaching or a talk</option><option>Press</option><option>Something else</option>
 </select></div>
-<div class="field"><label for="budget">Budget or timeline (optional)</label>
-<input id="budget" name="budget" type="text" placeholder="e.g. spring 2026, mid four figures"></div>
+<div class="field"><label for="work">Work (optional)</label>
+<select id="work" name="work"><option value="">— none in particular —</option><option value="Undertow (2025)">Undertow — 2025</option><option value="Low Pressure (2026)">Low Pressure — 2026</option><option value="Portrait of E.W. (2024)">Portrait of E.W. — 2024</option><option value="Two Chairs (2023)">Two Chairs — 2023</option><option value="Blue Hour (2024)">Blue Hour — 2024</option><option value="The Long Field II (2022)">The Long Field II — 2022</option><option value="Harrow (2023)">Harrow — 2023</option><option value="Nightwatch (2025)">Nightwatch — 2025</option><option value="Study for a Quiet Man (2024)">Study for a Quiet Man — 2024</option><option value="Three Hands (2025)">Three Hands — 2025</option><option value="Bottle and Bowl (2024)">Bottle and Bowl — 2024</option><option value="Ninety Minutes (2026)">Ninety Minutes — 2026</option><option value="Head, Turned Away (2026)">Head, Turned Away — 2026</option><option value="Broadcast (2025)">Broadcast — 2025</option><option value="Fanfare (2024)">Fanfare — 2024</option><option value="Signal (2026)">Signal — 2026</option><option value="Small Weather (2025)">Small Weather — 2025</option><option value="Night Shift (2026)">Night Shift — 2026</option><option value="Hollow Kings, page 4 (2025)">Hollow Kings, page 4 — 2025</option><option value="Panel from a Missing Hour (2022)">Panel from a Missing Hour — 2022</option></select></div>
+<div class="field"><label for="budget">Budget or timing (optional)</label>
+<input id="budget" name="budget" type="text" placeholder="e.g. autumn 2026"></div>
 <div class="field"><label for="message">Message</label>
-<textarea id="message" name="message" required
-placeholder="A sentence or two about what you have in mind."></textarea></div>
-<button class="btn" type="submit">Send message</button>
+<textarea id="message" name="message" required placeholder="A sentence or two is plenty."></textarea></div>
+<button class="btn" type="submit">Send enquiry</button>
 <p class="form-status" id="form-status" role="status"></p>
-<p style="font-size:.82rem;color:var(--muted);margin-top:1.2rem">This form opens
-your own email app with the message ready to send &mdash; nothing is stored on
-this site.</p>
+<p style="font-size:.8rem;color:var(--muted);margin-top:.8rem">This form opens
+your own email app with everything filled in — nothing is stored on this site.</p>
 </form>
-<div data-reveal>
-<img src="img/broadcast.svg" alt="Broadcast — two-colour risograph"
-style="width:100%;aspect-ratio:4/5;object-fit:cover;margin-bottom:2rem">
-<dl class="info">
+<aside style="margin-top:2.4rem">
+<div class="side-card">
+<img src="img/broadcast.svg" alt="Broadcast — two-colour risograph">
+<dl class="dl">
 <dt>Email</dt><dd><a href="mailto:studio@samwolff.example">studio@samwolff.example</a></dd>
-<dt>Studio</dt><dd>Third floor, Dundas Street West<br>Toronto, Ontario</dd>
-<dt>Visits</dt><dd>By appointment, Thursdays and Fridays</dd>
-<dt>Elsewhere</dt><dd><a href="#">Instagram</a> &nbsp;·&nbsp;
-<a href="#">Newsletter</a> &nbsp;·&nbsp; <a href="#">Shop</a></dd>
-</dl>
-<h3 style="font-size:1.4rem;margin:2.8rem 0 1rem">Before you write</h3>
-<ul class="cv">
-<li><span class="yr">Prices</span><span><strong>Happy to send a list</strong>
-<span class="place">Drawings start around $600; editions from $90.</span></span></li>
-<li><span class="yr">Ship</span><span><strong>Worldwide, flat-packed</strong>
-<span class="place">Rolled in a tube for anything over 60 cm.</span></span></li>
-<li><span class="yr">Comms</span><span><strong>Two slots a year</strong>
-<span class="place">Book covers and editorial, booked well ahead.</span></span></li>
-</ul>
-</div>
-</div>
-</div></section>
-</main><footer class="site-foot"><div class="wrap">
-<a class="foot-cta" href="mailto:studio@samwolff.example">Let&rsquo;s make something<br>worth keeping.</a>
-<div class="foot-row">
-<span>&copy; 2026 Sam Wolff. Toronto, Canada.</span>
-<ul><li><a href="work.html">Work</a></li><li><a href="about.html">About</a></li>
-<li><a href="contact.html">Contact</a></li>
-<li><a href="mailto:studio@samwolff.example">studio@samwolff.example</a></li></ul>
-</div></div></footer>
+<dt>Studio</dt><dd>Third floor, Dundas Street West, Toronto</dd>
+<dt>Visits</dt><dd>Thursdays and Fridays, by appointment</dd>
+<dt>Fairs</dt><dd>TCAF &middot; Harbour Print Fair</dd>
+</dl></div>
+<h2 style="font-size:1.1rem;margin:1.8rem 0 .5rem">Before you write</h2>
+<div class="faq"><details><summary>Do you take commissions?</summary><p>Two slots a year, usually book covers or editorial. Enquire early — the 2026 slots are booked and 2027 opens in the autumn.</p></details><details><summary>Are the originals available?</summary><p>Most of them. Anything marked sold or in a private collection is gone, but I can usually tell you what else is in the flat file.</p></details><details><summary>How do the editions ship?</summary><p>Flat-packed between boards up to 60 cm, rolled in a tube above that. Worldwide, tracked, at cost.</p></details><details><summary>Can I visit the studio?</summary><p>Thursdays and Fridays by appointment. Bring coffee and I will show you the drawer of things that did not work.</p></details></div>
+</aside></div></div><footer class="site">
+<span>&copy; 2026 Sam Wolff &middot; Toronto</span>
+<span>30 works catalogued &middot; last updated May 2026</span>
+<a href="mailto:studio@samwolff.example">studio@samwolff.example</a></footer>
 <script>
-(function(){
-  var els=document.querySelectorAll('[data-reveal]');
-  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('is-in');});return;}
-  var io=new IntersectionObserver(function(entries){
-    entries.forEach(function(en){
-      if(en.isIntersecting){en.target.classList.add('is-in');io.unobserve(en.target);}
-    });
-  },{rootMargin:'0px 0px -8% 0px',threshold:0.08});
-  els.forEach(function(e){io.observe(e);});
-})();
-
-(function(){
-  var b=document.querySelector('[data-nav-toggle]'), n=document.querySelector('[data-nav]');
-  if(!b||!n) return;
-  b.addEventListener('click',function(){
-    var open=n.classList.toggle('is-open');
-    b.setAttribute('aria-expanded',open?'true':'false');
-  });
-  n.addEventListener('click',function(e){
-    if(e.target.tagName==='A'){n.classList.remove('is-open');b.setAttribute('aria-expanded','false');}
-  });
-})();
-
-(function(){
-  var items=[].slice.call(document.querySelectorAll('[data-lightbox]'));
-  if(!items.length) return;
-  var box=document.createElement('div');
-  box.className='lightbox'; box.setAttribute('aria-hidden','true'); box.setAttribute('role','dialog');
-  box.setAttribute('aria-modal','true'); box.setAttribute('aria-label','Artwork viewer');
-  box.innerHTML='<button class="lb-close" aria-label="Close viewer">&times;</button>'+
-    '<button class="lb-nav lb-prev" aria-label="Previous artwork">&#8249;</button>'+
-    '<button class="lb-nav lb-next" aria-label="Next artwork">&#8250;</button>'+
-    '<figure class="lb-fig"><img alt=""><figcaption></figcaption></figure>';
-  document.body.appendChild(box);
-  var img=box.querySelector('img'), cap=box.querySelector('figcaption'), i=0, lastFocus=null;
-  var live=items;
-  function show(n){
-    i=(n+live.length)%live.length;
-    var el=live[i];
-    img.src=el.getAttribute('data-src'); img.alt=el.getAttribute('data-title')||'';
-    cap.innerHTML='<strong>'+(el.getAttribute('data-title')||'')+'</strong><span>'+(el.getAttribute('data-meta')||'')+'</span>';
-  }
-  function open(el){
-    live=items.filter(function(x){return !x.hidden;});
-    if(!live.length){live=items;}
-    var n=live.indexOf(el); if(n<0){n=0;}
-    lastFocus=document.activeElement;show(n);box.classList.add('is-open');box.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';box.querySelector('.lb-close').focus();}
-  function close(){box.classList.remove('is-open');box.setAttribute('aria-hidden','true');document.body.style.overflow='';if(lastFocus)lastFocus.focus();}
-  items.forEach(function(el){
-    el.addEventListener('click',function(e){e.preventDefault();open(el);});
-  });
-  box.querySelector('.lb-close').addEventListener('click',close);
-  box.querySelector('.lb-prev').addEventListener('click',function(){show(i-1);});
-  box.querySelector('.lb-next').addEventListener('click',function(){show(i+1);});
-  box.addEventListener('click',function(e){if(e.target===box)close();});
-  document.addEventListener('keydown',function(e){
-    if(!box.classList.contains('is-open'))return;
-    if(e.key==='Escape')close();
-    if(e.key==='ArrowLeft')show(i-1);
-    if(e.key==='ArrowRight')show(i+1);
-  });
-})();
+(function(){var b=document.querySelector('[data-nav-toggle]'),n=document.querySelector('[data-nav]');
+if(!b||!n)return;
+b.addEventListener('click',function(){var o=n.classList.toggle('is-open');
+b.setAttribute('aria-expanded',o?'true':'false')});
+n.addEventListener('click',function(e){if(e.target.tagName==='A'){
+n.classList.remove('is-open');b.setAttribute('aria-expanded','false')}})})();
 
 (function(){
   var f=document.getElementById('contact-form');
-  if(!f) return;
+  if(!f)return;
   f.addEventListener('submit',function(e){
     e.preventDefault();
-    var d=new FormData(f), get=function(k){return (d.get(k)||'').toString().trim();};
-    var name=get('name'), email=get('email'), subject=get('subject')||'Enquiry from samwolff.com';
-    var msg=get('message'), budget=get('budget');
-    var status=document.getElementById('form-status');
+    var d=new FormData(f),g=function(k){return (d.get(k)||'').toString().trim()};
+    var st=document.getElementById('form-status');
+    var name=g('name'),email=g('email'),msg=g('message');
     if(!name||!email||!msg){
-      if(status){status.textContent='Please add your name, email and a short message.';status.className='form-status error';}
+      if(st){st.textContent='Please add your name, email and a short message.';st.className='form-status error'}
       return;
     }
-    var body='Name: '+name+'\nEmail: '+email+(budget?'\nBudget / timeline: '+budget:'')+'\n\n'+msg;
-    window.location.href='mailto:studio@samwolff.example?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
-    if(status){status.textContent='Opening your email app — if nothing happens, write to studio@samwolff.example directly.';status.className='form-status ok';}
+    var body='Name: '+name+'\nEmail: '+email;
+    ['subject','budget','work','order'].forEach(function(k){
+      var v=g(k); if(v) body+='\n'+k.charAt(0).toUpperCase()+k.slice(1)+': '+v;
+    });
+    body+='\n\n'+msg;
+    window.location.href='mailto:studio@samwolff.example?subject='+encodeURIComponent(g('subject')||'Enquiry from samwolff.com')+
+      '&body='+encodeURIComponent(body);
+    if(st){st.textContent='Opening your email app \u2014 if nothing happens, write to studio@samwolff.example directly.';st.className='form-status ok'}
   });
+})();
+
+(function(){
+  var m=/work=([^&]+)/.exec(location.hash);
+  if(!m)return;
+  var t=decodeURIComponent(m[1]).replace(/\+/g,' ');
+  var sel=document.getElementById('work');
+  if(sel){for(var i=0;i<sel.options.length;i++){
+    if(sel.options[i].value.indexOf(t)===0){sel.selectedIndex=i;break}}}
+  var s=document.getElementById('subject'); if(s)s.selectedIndex=0;
+  var msg=document.getElementById('message');
+  if(msg&&!msg.value)msg.value='I would like to ask about '+t+'.';
+  var st=document.getElementById('form-status');
+  if(st){st.textContent='Prefilled from the archive.';st.className='form-status ok'}
 })();
 </script>
 </body>

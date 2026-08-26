@@ -1,7 +1,7 @@
 Web fonts bundled with this site
 ================================
-All families below are open-source (SIL Open Font License 1.1 unless
-stated otherwise) and are redistributed here under their own terms.
+Open-source families (SIL Open Font License 1.1 unless stated),
+redistributed here under their own terms.
 
 Bangers (bangers) — Copyright 2010 The Bangers Project Authors (https://github.com/googlefonts/bangers)
-Archivo (archivo) — Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo) Archivo-Italic[wdth,wght].ttf: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+Libre Franklin (libre-franklin) — Copyright 2020 The Libre Franklin Project Authors (https://github.com/googlefonts/Libre-Franklin) LibreFranklin-Italic[wght].ttf: Copyright 2020 The Libre Franklin Project Authors (https://github.com/googlefonts/Libre-Franklin)

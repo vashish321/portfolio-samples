@@ -3,164 +3,98 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Say hi — Sam Wolff</title>
-<meta name="description" content="Buy a print, commission a drawing, or invite Sam Wolff to a festival, school or workshop.">
-<meta property="og:title" content="Say hi — Sam Wolff">
-<meta property="og:description" content="Buy a print, commission a drawing, or invite Sam Wolff to a festival, school or workshop.">
+<title>Contact — Sam Wolff</title>
+<meta name="description" content="Ask about an order, a commission or stock.">
+<meta property="og:title" content="Contact — Sam Wolff">
+<meta property="og:description" content="Ask about an order, a commission or stock.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Sam Wolff">
-<meta name="theme-color" content="#111111">
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
-
 <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-head"><div class="wrap head-in">
-<a class="brand" href="index.html" aria-label="Sam Wolff — home">
-<svg viewBox="0 0 64 64" width="32" height="32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="none" stroke="#141414" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"><path d="M12 10 L18 26 M52 10 L46 26"/><path d="M12 10 L20 20 L26 14 M52 10 L44 20 L38 14"/><path d="M18 24 C18 18 24 13 32 13 C40 13 46 18 46 24 C46 32 44 36 40 40 L36 50 L32 54 L28 50 L24 40 C20 36 18 32 18 24 Z"/><path d="M26 28 h4 M34 28 h4"/><path d="M32 40 v6"/></svg><span><b>Sam Wolff</b>
-<span>Zine · Print · Paint</span></span></a>
-<button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Toggle menu">Menu</button>
-<nav data-nav aria-label="Primary"><ul><li><a href="index.html">Home</a></li><li><a href="work.html">Work</a></li><li><a href="about.html">About</a></li><li><a href="contact.html" aria-current="page">Say hi</a></li></ul></nav>
-</div></header>
-<main id="main">
-<section><div class="wrap">
-<p class="eyebrow">Say hi</p>
-<div class="sec-head"><h2>Let&rsquo;s talk</h2>
-<span class="sticker">Replies in ~2 days</span></div>
-<div class="contact-grid">
-<form class="form-card" id="contact-form" novalidate data-reveal>
+<header class="head"><div class="wrap">
+<a class="brand" href="index.html"><svg viewBox="0 0 64 64" width="28" height="28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="none" stroke="#151515" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"><path d="M12 10 L18 26 M52 10 L46 26"/><path d="M12 10 L20 20 L26 14 M52 10 L44 20 L38 14"/><path d="M18 24 C18 18 24 13 32 13 C40 13 46 18 46 24 C46 32 44 36 40 40 L36 50 L32 54 L28 50 L24 40 C20 36 18 32 18 24 Z"/><path d="M26 28 h4 M34 28 h4"/><path d="M32 40 v6"/></svg>
+<span><b>Sam Wolff</b><i>Editions &amp; originals</i></span></a>
+<nav aria-label="Primary"><a href="index.html">Shop</a><a href="about.html">Studio</a><a href="contact.html" aria-current="page">Contact</a>
+<button class="cartbtn" data-open-cart aria-label="Open basket">Basket
+<span class="badge" data-count>0</span></button></nav></div></header>
+<div class="doc" id="main">
+<p class="eyebrow">Contact</p>
+<h1>Ask anything</h1>
+<p class="lede">Orders, commissions, wholesale for shops, festival invitations —
+all the same inbox. Replies inside two working days.</p>
+<div class="two">
+<form id="contact-form" novalidate style="margin-top:2rem">
 <div class="field"><label for="name">Your name</label>
 <input id="name" name="name" type="text" autocomplete="name" required></div>
 <div class="field"><label for="email">Email</label>
 <input id="email" name="email" type="email" autocomplete="email" required></div>
-<div class="field"><label for="subject">What&rsquo;s up?</label>
-<select id="subject" name="subject">
-<option>Buying a print or an original</option>
-<option>Commission (cover, editorial, poster)</option>
-<option>Comics, zines or anthology</option>
-<option>Festival, table or talk</option>
-<option>Workshop</option>
-<option>Just saying hello</option>
-</select></div>
-<div class="field"><label for="budget">Budget / timing (optional)</label>
-<input id="budget" name="budget" type="text" placeholder="e.g. May, a few hundred"></div>
-<div class="field"><label for="message">Tell me more</label>
-<textarea id="message" name="message" required
-placeholder="Two or three sentences is plenty."></textarea></div>
-<button class="btn" type="submit">Send it &rarr;</button>
+<div class="field"><label for="subject">What&rsquo;s it about?</label>
+<select id="subject" name="subject"><option>An order</option>
+<option>Stock for a shop</option><option>Commission</option>
+<option>A painting enquiry</option><option>Festival or fair</option>
+<option>Workshop</option><option>Something else</option></select></div>
+<div class="field"><label for="message">Message</label>
+<textarea id="message" name="message" required></textarea></div>
+<button class="big" type="submit" style="width:auto">Send message</button>
 <p class="form-status" id="form-status" role="status"></p>
-<p style="font-size:.85rem;color:var(--muted);margin-top:1rem;font-weight:500">
-This opens your own email app &mdash; nothing gets stored on this site.</p>
+<p style="font-size:.8rem;color:var(--muted);margin-top:.7rem">Opens your own
+email app. Nothing is stored on this site.</p>
 </form>
-<div data-reveal>
-<img src="img/fanfare.svg" alt="Fanfare — three-colour risograph"
-style="width:100%;aspect-ratio:4/5;object-fit:cover;border:3px solid var(--ink);
-border-radius:22px;margin-bottom:1.5rem;transform:rotate(1.5deg)">
-<div class="info">
-<dl>
+<aside style="margin-top:2rem">
+<div class="card-box"><img src="img/fanfare.svg" alt="Fanfare — risograph">
+<dl class="dl">
 <dt>Email</dt><dd><a href="mailto:studio@samwolff.example">studio@samwolff.example</a></dd>
-<dt>Studio</dt><dd>Third floor, Dundas St W, Toronto</dd>
-<dt>Visits</dt><dd>Thursdays &amp; Fridays, by appointment</dd>
-<dt>Find me at</dt><dd>TCAF &middot; Harbour Print Fair</dd>
-<dt>Elsewhere</dt><dd><a href="#">Instagram</a> &middot; <a href="#">Newsletter</a>
-&middot; <a href="#">Shop</a></dd>
-<dt>Prices</dt><dd>Editions from $90 &middot; drawings from $600</dd>
-</dl>
-</div>
-</div>
-</div>
-</div></section>
-</main><footer class="site-foot"><div class="wrap">
-<a class="foot-cta" href="mailto:studio@samwolff.example">Got an idea?<br>
-<span class="c1">Let&rsquo;s</span> <span class="c2">print it.</span></a>
-<div class="foot-row">
-<span>&copy; 2026 Sam Wolff — made in Toronto on a very old drawing board.</span>
-<ul><li><a href="work.html">Work</a></li><li><a href="about.html">About</a></li>
-<li><a href="contact.html">Say hi</a></li>
-<li><a href="mailto:studio@samwolff.example">studio@samwolff.example</a></li></ul>
-</div></div></footer>
+<dt>Studio</dt><dd>Third floor, Dundas Street West, Toronto</dd>
+<dt>Visits</dt><dd>Thursdays and Fridays, by appointment</dd>
+<dt>Fairs</dt><dd>TCAF &middot; Harbour Print Fair</dd>
+<dt>Postage</dt><dd>Flat $18 worldwide, free over $250</dd>
+</dl></div>
+<div class="faq" style="margin-top:1.4rem"><details><summary>Do you take commissions?</summary><p>Two slots a year, usually book covers or editorial. Enquire early — the 2026 slots are booked and 2027 opens in the autumn.</p></details><details><summary>Are the originals available?</summary><p>Most of them. Anything marked sold or in a private collection is gone, but I can usually tell you what else is in the flat file.</p></details><details><summary>How do the editions ship?</summary><p>Flat-packed between boards up to 60 cm, rolled in a tube above that. Worldwide, tracked, at cost.</p></details><details><summary>Can I visit the studio?</summary><p>Thursdays and Fridays by appointment. Bring coffee and I will show you the drawer of things that did not work.</p></details></div>
+</aside></div></div><footer class="site"><div class="wrap">
+<a class="big-cta" href="mailto:studio@samwolff.example">Questions?<br>
+<span class="y">Just ask.</span></a>
+<div class="r"><span>&copy; 2026 Sam Wolff &middot; Toronto &middot; Shipped flat, worldwide</span>
+<span><a href="index.html">Shop</a> · <a href="about.html">Studio</a> ·
+<a href="contact.html">Contact</a></span>
+<a href="mailto:studio@samwolff.example">studio@samwolff.example</a></div></div></footer>
 <script>
 (function(){
-  var els=document.querySelectorAll('[data-reveal]');
-  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('is-in');});return;}
-  var io=new IntersectionObserver(function(entries){
-    entries.forEach(function(en){
-      if(en.isIntersecting){en.target.classList.add('is-in');io.unobserve(en.target);}
-    });
-  },{rootMargin:'0px 0px -8% 0px',threshold:0.08});
-  els.forEach(function(e){io.observe(e);});
-})();
-
-(function(){
-  var b=document.querySelector('[data-nav-toggle]'), n=document.querySelector('[data-nav]');
-  if(!b||!n) return;
-  b.addEventListener('click',function(){
-    var open=n.classList.toggle('is-open');
-    b.setAttribute('aria-expanded',open?'true':'false');
-  });
-  n.addEventListener('click',function(e){
-    if(e.target.tagName==='A'){n.classList.remove('is-open');b.setAttribute('aria-expanded','false');}
-  });
-})();
-
-(function(){
-  var items=[].slice.call(document.querySelectorAll('[data-lightbox]'));
-  if(!items.length) return;
-  var box=document.createElement('div');
-  box.className='lightbox'; box.setAttribute('aria-hidden','true'); box.setAttribute('role','dialog');
-  box.setAttribute('aria-modal','true'); box.setAttribute('aria-label','Artwork viewer');
-  box.innerHTML='<button class="lb-close" aria-label="Close viewer">&times;</button>'+
-    '<button class="lb-nav lb-prev" aria-label="Previous artwork">&#8249;</button>'+
-    '<button class="lb-nav lb-next" aria-label="Next artwork">&#8250;</button>'+
-    '<figure class="lb-fig"><img alt=""><figcaption></figcaption></figure>';
-  document.body.appendChild(box);
-  var img=box.querySelector('img'), cap=box.querySelector('figcaption'), i=0, lastFocus=null;
-  var live=items;
-  function show(n){
-    i=(n+live.length)%live.length;
-    var el=live[i];
-    img.src=el.getAttribute('data-src'); img.alt=el.getAttribute('data-title')||'';
-    cap.innerHTML='<strong>'+(el.getAttribute('data-title')||'')+'</strong><span>'+(el.getAttribute('data-meta')||'')+'</span>';
-  }
-  function open(el){
-    live=items.filter(function(x){return !x.hidden;});
-    if(!live.length){live=items;}
-    var n=live.indexOf(el); if(n<0){n=0;}
-    lastFocus=document.activeElement;show(n);box.classList.add('is-open');box.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';box.querySelector('.lb-close').focus();}
-  function close(){box.classList.remove('is-open');box.setAttribute('aria-hidden','true');document.body.style.overflow='';if(lastFocus)lastFocus.focus();}
-  items.forEach(function(el){
-    el.addEventListener('click',function(e){e.preventDefault();open(el);});
-  });
-  box.querySelector('.lb-close').addEventListener('click',close);
-  box.querySelector('.lb-prev').addEventListener('click',function(){show(i-1);});
-  box.querySelector('.lb-next').addEventListener('click',function(){show(i+1);});
-  box.addEventListener('click',function(e){if(e.target===box)close();});
-  document.addEventListener('keydown',function(e){
-    if(!box.classList.contains('is-open'))return;
-    if(e.key==='Escape')close();
-    if(e.key==='ArrowLeft')show(i-1);
-    if(e.key==='ArrowRight')show(i+1);
-  });
+  var b=document.querySelector('[data-count]');
+  if(!b)return;
+  var n=0;
+  try{
+    var c=JSON.parse(localStorage.getItem('sw-cart')||'[]');
+    c.forEach(function(l){n+=l.qty});
+  }catch(e){}
+  b.textContent=n;
+  var open=document.querySelector('[data-open-cart]');
+  if(open)open.addEventListener('click',function(){location.href='index.html#shop'});
 })();
 
 (function(){
   var f=document.getElementById('contact-form');
-  if(!f) return;
+  if(!f)return;
   f.addEventListener('submit',function(e){
     e.preventDefault();
-    var d=new FormData(f), get=function(k){return (d.get(k)||'').toString().trim();};
-    var name=get('name'), email=get('email'), subject=get('subject')||'Enquiry from samwolff.com';
-    var msg=get('message'), budget=get('budget');
-    var status=document.getElementById('form-status');
+    var d=new FormData(f),g=function(k){return (d.get(k)||'').toString().trim()};
+    var st=document.getElementById('form-status');
+    var name=g('name'),email=g('email'),msg=g('message');
     if(!name||!email||!msg){
-      if(status){status.textContent='Please add your name, email and a short message.';status.className='form-status error';}
+      if(st){st.textContent='Please add your name, email and a short message.';st.className='form-status error'}
       return;
     }
-    var body='Name: '+name+'\nEmail: '+email+(budget?'\nBudget / timeline: '+budget:'')+'\n\n'+msg;
-    window.location.href='mailto:studio@samwolff.example?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
-    if(status){status.textContent='Opening your email app — if nothing happens, write to studio@samwolff.example directly.';status.className='form-status ok';}
+    var body='Name: '+name+'\nEmail: '+email;
+    ['subject','budget','work','order'].forEach(function(k){
+      var v=g(k); if(v) body+='\n'+k.charAt(0).toUpperCase()+k.slice(1)+': '+v;
+    });
+    body+='\n\n'+msg;
+    window.location.href='mailto:studio@samwolff.example?subject='+encodeURIComponent(g('subject')||'Enquiry from samwolff.com')+
+      '&body='+encodeURIComponent(body);
+    if(st){st.textContent='Opening your email app \u2014 if nothing happens, write to studio@samwolff.example directly.';st.className='form-status ok'}
   });
 })();
 </script>

@@ -1,7 +1,7 @@
 Web fonts bundled with this site
 ================================
-All families below are open-source (SIL Open Font License 1.1 unless
-stated otherwise) and are redistributed here under their own terms.
+Open-source families (SIL Open Font License 1.1 unless stated),
+redistributed here under their own terms.
 
-Bricolage Grotesque (bricolage-grotesque) — Copyright 2022 The Bricolage Grotesque Project Authors (https://github.com/ateliertriay/bricolage)
-DM Sans (dm-sans) — Copyright 2014 The DM Sans Project Authors (https://github.com/googlefonts/dm-fonts) DMSans-Italic[opsz,wght].ttf: Copyright 2014 The DM Sans Project Authors (https://github.com/googlefonts/dm-fonts)
+Outfit (outfit) — Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
+Manrope (manrope) — Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
