@@ -1,0 +1,7 @@
+Web fonts bundled with this site
+================================
+Open-source families (SIL Open Font License 1.1 unless stated),
+redistributed here under their own terms.
+
+Bangers (bangers) — Copyright 2010 The Bangers Project Authors (https://github.com/googlefonts/bangers)
+Libre Franklin (libre-franklin) — Copyright 2020 The Libre Franklin Project Authors (https://github.com/googlefonts/Libre-Franklin) LibreFranklin-Italic[wght].ttf: Copyright 2020 The Libre Franklin Project Authors (https://github.com/googlefonts/Libre-Franklin)
